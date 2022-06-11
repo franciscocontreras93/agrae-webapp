@@ -1,1 +1,2 @@
-web:gunicorn agrae.wsgi:application 
+web: gunicorn agrae.wsgi:application 
+web: python manage.py runserver 0.0.0.0:$PORT
